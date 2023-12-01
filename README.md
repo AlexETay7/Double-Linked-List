@@ -74,7 +74,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  allow elements to be inserted into a list without the list having to shift.
 
 
-TESTING:
+# TESTING:
 
  I was able to test my implementation of a double-linked list by using 
  ListTester.java. ListTester is a series of black-box tests that work on any
