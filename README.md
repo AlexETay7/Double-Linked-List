@@ -5,7 +5,7 @@
 * Alex Taylor
 **************** 
 
-OVERVIEW:
+# OVERVIEW:
 
 In this program, I created a doubly-linked node-based implementation
 of the IndexedUnsortedList interface. The created double-linked list
@@ -14,7 +14,7 @@ ListIterator interface. A test suite is used to ensure correct
 funcionality of the double linked list.
 
 
-INCLUDED FILES:
+# INCLUDED FILES:
 
  * IUDoubleLinkedList.java - A node-based doubly-linked implemenation of the IndexedUnsortedList interface.
  * IndexedUnsortedList.java - Interface for an Iterable, Indexed, Unsorted List ADT. Implemented in IUDoubleLinkedList.java.
@@ -23,14 +23,14 @@ INCLUDED FILES:
  * README - A brief overview of the program, how to run and compile it, related concepts, and testing information.
 
 
-COMPILING AND RUNNING:
+# COMPILING AND RUNNING:
 
  From the directory containing all source files, compile all
  java files with the command:
  $ javac *.java
 
  Or, to just compile the ListTester file (either way works), from the directory
- containing all the sources files, compile ListTester with this command:
+ containing all the source files, compile ListTester with this command:
  $ javac ListTester.java
 
  Run the compiled ListTester class file with the command:
@@ -39,7 +39,7 @@ COMPILING AND RUNNING:
  Console output will give the results after the program finishes.
 
 
-PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+# PROGRAM DESIGN AND IMPORTANT CONCEPTS:
 
  This program relies on the key concept of doubly-linked node-based lists.
  Essentially, each element in this list has a node reference. Each
@@ -78,7 +78,7 @@ TESTING:
  I was able to test my implementation of a double-linked list by using 
  ListTester.java. ListTester is a series of black-box tests that work on any
  list that implements the IndexedUnsortedList interface. 
- ListTester.java contains 56 scenarios where each method in IUDoubleLinkedList.java 
+ I wrote 56 high priority change scenarios where each method in IUDoubleLinkedList.java 
  is tested for an empty list, and a list with one, two, and three elements. It 
  should be noted that there are 82 possible scenarios for all methods and lists of 
  varying sizes (0-3 elements). However, I chose to only implement 56 because some 
@@ -87,24 +87,24 @@ TESTING:
  *AS FAR AS I KNOW THERE ARE NO EXISTING BUGS*
 
 
-DISCUSSION:
+# DISCUSSION:
  
- During the method-writing phase of this project the most frequent
+ During the method-writing phase of this project, the most frequent
  issue I had was probably when testing empty lists. At the beginning of
- my method writing I did not handle empty lists correctly. However, I
+ my method writing, I did not handle empty lists correctly. However, I
  learned quickly and wrote out with pencil and paper the nodes and how the
  methods interacted with them. This helped me a lot and I really did not have 
- any issues after that when writing my methods for the double linked list.
+ any issues after that when writing my methods for the double-linked list.
 
- The only other issue I came across was when implementing change scenarios, a couple times I
+ The only other issue I came across was when implementing change scenarios, a couple of times I
  forgot to update the list in a change scenario, so I would be testing a 3-element
  change scenario with a 2-element list. I was able to recognize this quickly though
  and fix it. Other than that, I really did not have much trouble with this project. That
- may sound cocky, but Dr. Vails (my professor) lectures were extremely helpful and I paid 
+ may sound cocky, but Dr. Vails's (my professor) lectures were extremely helpful and I paid 
  really close attention, started early, and asked questions when I needed to. 
 
- I would say that what finally clicked to me at the end of the project was the test class.
- I was very intimidated and confused as to what was going on in a lot of the tester when
+ I would say that what finally clicked for me at the end of the project was the test class.
+ I was very intimidated and confused as to what was going on with a lot of the testers when
  I first saw it. Now though, I understand a lot more of what is going on inside the test class
  and how certain things interact with one another. I was excited to learn about test-driven development
  at the beginning of this class (even though it can be boring) and even though I am 
