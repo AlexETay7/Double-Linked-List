@@ -313,6 +313,10 @@ public class IUDoubleLinkedList<T> implements IndexedUnsortedList<T> {
         return new DLLIterator(startingIndex);
     }
 
+    /**
+    An configurable iterator class for the DLL that implements
+    the ListIterator interface.
+    */
     private class DLLIterator implements ListIterator<T> {
 
         private Node<T> nextNode;
