@@ -5,7 +5,7 @@
 * Alex Taylor
 **************** 
 
-**OVERVIEW:**
+### **OVERVIEW:**
 
 In this program, I created a doubly-linked node-based implementation
 of the IndexedUnsortedList interface. The created double-linked list
