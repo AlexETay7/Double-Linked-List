@@ -24,7 +24,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  * README - A brief overview of the program, how to run and compile it, related concepts, and testing information.
 
 
-### **COMPILING AND RUNNING:**
+### **_COMPILING AND RUNNING:_**
 
  From the directory containing all source files, compile all
  java files with the command:
@@ -40,7 +40,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  Console output will give the results after the program finishes.
 
 
-### **PROGRAM DESIGN AND IMPORTANT CONCEPTS:**
+### **_PROGRAM DESIGN AND IMPORTANT CONCEPTS:_**
 
  This program relies on the key concept of doubly-linked node-based lists.
  Essentially, each element in this list has a node reference. Each
@@ -74,7 +74,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  allow elements to be inserted into a list without the list having to shift.
 
 
-### **TESTING:**
+### **_TESTING:_**
 
  I was able to test my implementation of a double-linked list by using 
  ListTester.java. ListTester is a series of black-box tests that work on any
@@ -88,7 +88,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  *AS FAR AS I KNOW THERE ARE NO EXISTING BUGS*
 
 
-### **DISCUSSION:**
+### **_DISCUSSION:_**
  
  During the method-writing phase of this project, the most frequent
  issue I had was probably when testing empty lists. At the beginning of
