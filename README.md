@@ -5,7 +5,7 @@
 * Alex Taylor
 **************** 
 
-### **OVERVIEW:**
+### **_OVERVIEW:_**
 
 In this program, I created a doubly-linked node-based implementation
 of the IndexedUnsortedList interface. The created double-linked list
@@ -15,7 +15,7 @@ functionality of the double-linked list. The test suite was given to
 me partially, but I wrote over 1500 lines of code in it by the end.
 
 
-### **INCLUDED FILES:**
+### **_INCLUDED FILES:_**
 
  * IUDoubleLinkedList.java - A node-based doubly-linked implementation of the IndexedUnsortedList interface.
  * IndexedUnsortedList.java - Interface for an Iterable, Indexed, Unsorted List ADT. Implemented in IUDoubleLinkedList.java.
