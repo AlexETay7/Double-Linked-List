@@ -5,7 +5,7 @@
 * Alex Taylor
 **************** 
 
-### **_OVERVIEW:_**
+### ***OVERVIEW:***
 
 In this program, I created a doubly-linked node-based implementation
 of the IndexedUnsortedList interface. The created double-linked list
@@ -15,7 +15,7 @@ functionality of the double-linked list. The test suite was given to
 me partially, but I wrote over 1500 lines of code in it by the end.
 
 
-### **_INCLUDED FILES:_**
+### ***INCLUDED FILES:***
 
  * IUDoubleLinkedList.java - A node-based doubly-linked implementation of the IndexedUnsortedList interface.
  * IndexedUnsortedList.java - Interface for an Iterable, Indexed, Unsorted List ADT. Implemented in IUDoubleLinkedList.java.
@@ -24,7 +24,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  * README - A brief overview of the program, how to run and compile it, related concepts, and testing information.
 
 
-### **_COMPILING AND RUNNING:_**
+### ***COMPILING AND RUNNING:***
 
  From the directory containing all source files, compile all
  java files with the command:
@@ -40,7 +40,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  Console output will give the results after the program finishes.
 
 
-### **_PROGRAM DESIGN AND IMPORTANT CONCEPTS:_**
+### ***PROGRAM DESIGN AND IMPORTANT CONCEPTS:***
 
  This program relies on the key concept of doubly-linked node-based lists.
  Essentially, each element in this list has a node reference. Each
@@ -50,7 +50,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  a "getElement()" method. All logic for the doubly-linked 
  node-based list is done in the IUDoubleLinkedList.java file.
 
- We are able to update the elements in a list more efficiently 
+ We can update the elements in a list more efficiently 
  using a double-linked list by not having to shift elements in 
  the list each time we add or remove an element. This is done 
  by updating an elements corresponding node's "next node" and 
@@ -74,7 +74,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  allow elements to be inserted into a list without the list having to shift.
 
 
-### **_TESTING:_**
+### ***TESTING:***
 
  I was able to test my implementation of a double-linked list by using 
  ListTester.java. ListTester is a series of black-box tests that work on any
@@ -88,7 +88,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
  *AS FAR AS I KNOW THERE ARE NO EXISTING BUGS*
 
 
-### **_DISCUSSION:_**
+### ***DISCUSSION:***
  
  During the method-writing phase of this project, the most frequent
  issue I had was probably when testing empty lists. At the beginning of
