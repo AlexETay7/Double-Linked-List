@@ -27,7 +27,7 @@ me partially, but I wrote over 1500 lines of code in it by the end.
 
 ### ***COMPILING AND RUNNING:***
 
- From the directory containing all source files, compile all
+ In a terminal window, navigate to the directory containing all source files, compile all
  java files with the command:
  <pre>
  $ javac *.java
