@@ -29,16 +29,23 @@ me partially, but I wrote over 1500 lines of code in it by the end.
 
  From the directory containing all source files, compile all
  java files with the command:
- $ javac *.java
+ <pre>
+   $ javac *.java
+ </pre>
+
 
  Or, to just compile the ListTester file (either way works), from the directory
  containing all the source files, compile ListTester with this command:
- $ javac ListTester.java
+ <pre>
+   $ javac ListTester.java
+ </pre>
 
  Run the compiled ListTester class file with the command:
- $ java ListTester.java
+ <pre>
+  $ java ListTester.java
+ </pre>
 
- Console output will give the results after the program finishes.
+ The console output will give the results after the program finishes.
 
 
 ### ***PROGRAM DESIGN AND IMPORTANT CONCEPTS:***
